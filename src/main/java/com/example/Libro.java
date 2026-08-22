@@ -21,25 +21,25 @@ public Libro ( String titulo,  String autor, int paginas){
     this.autor = autor;
     this.paginas = paginas;
 }
-public String gettitulo(){
+public String getTitulo(){
     return titulo;
 }
-public void settitulo (String titulo){
+public void setTitulo (String titulo){
     this.titulo =  titulo;
 }
-public String getautor(){
+public String getAutor(){
     return autor;
 }
-public void setautor (String autor){
+public void setAutor (String autor){
     this.autor = autor;
 }
-public int getpaginas (){ 
+public int getPaginas (){ 
     return paginas;
 }
-public void setpaguinas (int paginas){
+public void setPaguinas (int paginas){
     this.paginas = paginas;
 }
-public void mostrardetalles(){
+public void mostrarDetalles(){
     System.out.println("libro:" + titulo +"autor:"+autor+"paginas:"+ paginas);
 }
 }

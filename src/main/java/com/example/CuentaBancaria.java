@@ -12,23 +12,23 @@ public class CuentaBancaria {
             this.saldo = saldoinicial;
         }
         }
-    public String gettitular(){
+    public String getTitular(){
         return titular;
     }
-    public void settitular (String titular){
+    public void setTitular (String titular){
         this.titular = titular;
     }
-    public double getsaldo(){
+    public double getSaldo(){
         return saldo;
     }
-    public void depositar (double cantidad){
+    public void Depositar (double cantidad){
         if (cantidad > 0) {
             saldo += cantidad;
         }else{
             System.out.println("la cantidad a depositar debe ser mayor a 0");
         }
     }
-    public void retirar(double cantidad){
+    public void Retirar(double cantidad){
         if (cantidad <= 0) {
             System.out.println("la cantidad a retirar debe ser mayor a 0");
         }else if (cantidad > saldo){
